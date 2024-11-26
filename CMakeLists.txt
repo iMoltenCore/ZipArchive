@@ -7,6 +7,7 @@ project(ZipArchive
 )
 
 add_compile_definitions(ZLIB_COMPAT)
+add_compile_definitions(HAVE_WZAES)
 
 add_library(${PROJECT_NAME}
             SSZipArchive/SSZipArchive.m
