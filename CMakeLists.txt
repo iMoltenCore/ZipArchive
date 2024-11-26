@@ -6,6 +6,13 @@ project(ZipArchive
         LANGUAGES C OBJC
 )
 
+add_compile_definitions(HAVE_ARC4RANDOM_BUF)
+add_compile_definitions(HAVE_ICONV)
+add_compile_definitions(HAVE_INTTYPES_H)
+add_compile_definitions(HAVE_PKCRYPT)
+add_compile_definitions(HAVE_STDINT_H)
+add_compile_definitions(HAVE_WZAES)
+add_compile_definitions(HAVE_ZLIB)
 add_compile_definitions(ZLIB_COMPAT)
 
 add_library(${PROJECT_NAME}
