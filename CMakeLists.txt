@@ -14,6 +14,7 @@ add_compile_definitions(HAVE_STDINT_H)
 add_compile_definitions(HAVE_WZAES)
 add_compile_definitions(HAVE_ZLIB)
 add_compile_definitions(ZLIB_COMPAT)
+add_compile_definitions(HAVE_WZAES)
 
 add_library(${PROJECT_NAME}
             SSZipArchive/SSZipArchive.m
